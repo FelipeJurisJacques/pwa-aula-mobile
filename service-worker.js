@@ -1,3 +1,5 @@
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('service-worker.js')
-}
+const PRECACHE = 'precache-v1'
+
+const PRECACHE_URLS = [
+    'index.html'
+]
