@@ -1,7 +1,10 @@
 const PRECACHE = 'precache-v1'
 
 const PRECACHE_URLS = [
-    'index.html'
+    'index.html',
+    './',
+    'app.js',
+    'demo.js'
 ]
 
 self.addEventListener('install', event => {
